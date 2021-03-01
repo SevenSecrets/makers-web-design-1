@@ -1,0 +1,13 @@
+.grid-container-1 {
+	display: grid;
+	grid-template-areas: 'header header';
+}
+
+.grid-container-2 {
+	display: grid;
+	grid-template-areas: 'header header header';
+}
+
+.header {
+	grid-area: header;
+}
