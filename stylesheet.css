@@ -1,13 +1,59 @@
 .grid-container-1 {
 	display: grid;
-	grid-template-areas: 'header header';
+	grid-template-areas: 
+	'header-1 header-1'
+	'left-1 right-1';
+	justify-content: center;
+	background-color: #dddddd;
 }
 
 .grid-container-2 {
 	display: grid;
-	grid-template-areas: 'header header header';
+	grid-template-areas: 
+	'header-2 header-2 header-2'
+	'subheader subheader subheader'
+	'left-2 center right-2';
+	justify-content: center;
 }
 
-.header {
-	grid-area: header;
+.header-1, .left-1, .right-1 {
+	background-color: #333333;
+	margin: 10%;
+}
+
+.header-2, .subheader, .left-2, .right-2, .center {
+	background-color: #999999;
+	margin: 10%;
+}
+
+.header-1 {
+	grid-area: header-1;
+}
+
+.header-2 {
+	grid-area: header-2;
+}
+
+.subheader {
+	grid-area: subheader;
+}
+
+.left-1 {
+	grid-area: left-1;
+}
+
+.right-1 {
+	grid-area: right-1;
+}
+
+.left-2 {
+	grid-area: left-2;
+}
+
+.right-2 {
+	grid-area: right-2;
+}
+
+.center {
+	grid-area: center;
 }
