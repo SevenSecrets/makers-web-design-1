@@ -31,13 +31,13 @@
 .header-1 {
 	grid-area: header-1;
 	width: 702px;
-	height: 20%;
+	height: 30%;
 }
 
 .header-2 {
 	grid-area: header-2;
 	width: 702px;
-	height: 20%;
+	height: 30%;
 }
 
 .subheader {
